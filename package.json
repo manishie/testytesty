@@ -1,0 +1,48 @@
+{
+  "name": "motherline",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "develop": "vite -l \"info\"",
+    "build": "vite build --mode development",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cometchat-pro/chat": "^3.0.12",
+    "@cometchat-pro/web-calls": "^3.0.2",
+    "@cometchat/chat-uikit-react": "^4.0.0-beta.1.6",
+    "@cometchat/uikit-elements": "^1.0.0-beta.1.0",
+    "@cometchat/uikit-resources": "^1.0.0-beta.1.0",
+    "@cometchat/uikit-shared": "^1.0.0-beta.1.0",
+    "@twemoji/api": "^14.1.0",
+    "dateformat": "^5.0.3",
+    "html-react-parser": "^3.0.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "sass": "^1.58.3",
+    "workbox-background-sync": "^6.5.4",
+    "workbox-broadcast-update": "^6.5.4",
+    "workbox-cacheable-response": "^6.5.4",
+    "workbox-core": "^6.5.4",
+    "workbox-expiration": "^6.5.4",
+    "workbox-google-analytics": "^6.5.4",
+    "workbox-navigation-preload": "^6.5.4",
+    "workbox-range-requests": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4",
+    "workbox-streams": "^6.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.9",
+    "vite-plugin-dynamic-publicpath": "^1.1.2",
+    "vite-plugin-pwa": "^0.15.1",
+    "workbox-precaching": "^6.5.4"
+  }
+}
